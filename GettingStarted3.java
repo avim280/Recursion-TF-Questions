@@ -1,4 +1,4 @@
-//Avi Mahajan
+//Avi Mahajan If user gets question right the green button will light up If they get it wrong red button will light up.
 package gettingstarted;
 
 //Add Phidgets Library 
