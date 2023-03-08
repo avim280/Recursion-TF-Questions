@@ -1,0 +1,13 @@
+//Arjun Gupta wrote this code. He is creating two circles, one will be green and the other red, representing the true and false buttons. He will laos have the true false statements presented above the buttons.
+import doodlepad.*;
+
+public class PhidgetDoodle {
+    public static void main(String[] args) {
+		System.out.print("Every recursion method must have at least one base case that halts the recursion.");
+		Oval r1 = new Oval(120, 70, 60, 60);
+		r1.setFilled(true);
+		//Rectangle r2 = new Rectangle(15, 30, 40, 40);
+		Oval r3 = new Oval(50, 70, 60, 60);
+	
+	}
+}
