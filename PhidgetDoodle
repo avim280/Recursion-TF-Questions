@@ -1,13 +1,25 @@
 //Arjun Gupta wrote this code. He is creating two circles, one will be green and the other red, representing the true and false buttons. He will laos have the true false statements presented above the buttons.
 import doodlepad.*;
 
+import doodlepad.*;
+
 public class PhidgetDoodle {
-    public static void main(String[] args) {
-		System.out.print("Every recursion method must have at least one base case that halts the recursion.");
-		Oval r1 = new Oval(120, 70, 60, 60);
+    public static void doodlePad(String str) {
+		Oval r1 = new Oval(295, 100, 60, 60);
 		r1.setFilled(true);
 		//Rectangle r2 = new Rectangle(15, 30, 40, 40);
-		Oval r3 = new Oval(50, 70, 60, 60);
-	
+		Oval r3 = new Oval(225, 100, 60, 60);
+		Text t1 = new Text("True", 302, 50, 12);
+		Text f1 = new Text("False", 231, 50, 12);
+		r1.setFillColor(0, 255, 0);
+		r3.setFillColor(255,0,0);
+		Text q1 = new Text(str, 35, 30, 14);
 	}
-}
+	
+	public static void main(String[] args) {
+		doodlePad("Every recursive method must have at least one base case which halts the recursion.");
+		//doodlePad("The binary search algorithim can only be written recursively.");
+		//doodlePad("While the program is executing the call stack can be empty.");
+		//doodlePad("Calling recursive functions many times may result in delay of the program.");
+	}
+	
